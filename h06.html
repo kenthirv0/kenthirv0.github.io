@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="et">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Harjutus06</title>
+        <meta name="keywords" content="HTML,CSS,HTML5,CSS3">
+        <meta name="author" content="Kent Hirv IT-23">
+        <link rel="shortcut icon" href="pildid/favicon.ico">
+    </head>
+<body>
+    <h1>Vormide loomine</h1>
+    <form action="#" method="get">
+    <table>
+        <tr>
+            <td>Kasutajanimi:</td>
+            <td><input type="text" name="kasutaja" maxlength="6" placeholder="max pikkus 6" ></td>
+        </tr>
+        <tr>
+            <td>Kursus:</td>
+            <td><input type="text" name="kursus" maxlength="6" placeholder="max pikkus 3" ></td>
+        </tr>
+        <tr>
+            <td>Osakonna number:</td>
+            <td><input type="number" name="department" min="1" max="3" step="1"></td>
+        </tr>
+        <tr>
+            <td>Parool:</td>
+            <td><input type="password" name="parool" required></td>
+        </tr>
+        <tr>
+            <td>Vali teenus:</td>
+            <td>
+                <select name="teenus">
+                    <option value="1">Odav 1€</option>
+                    <option value="10">Keskmine 10€</option>
+                    <option value="200">Kallis 200€</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Roll:</td>
+            <td>
+                <input type="radio" name="admin" value="admin">Admin<br>
+                <input type="radio" name="moderaator" value="moderaator">Moderaator<br>
+                <input type="radio" name="user" value="user">User<br>
+            </td>
+        </tr>
+        <tr>
+            <td>Nõustun tingimustega:</td>
+            <td><input type="checkbox" name="agree"></td>
+        </tr>
+        <tr>
+            <td>Enesetutvustus:</td>
+            <td><textarea name="enesetutvustus" rows="10" cols="25"></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="reset" value="Tühjenda väljad"></td>
+            <td><input type="submit" value="Saada"></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
